@@ -1,0 +1,34 @@
+{ 
+	"pieces": [
+	{
+		"date": "2016-08-05",
+		"headline": "Locals defy gravity in circus school",
+		"teaser": "Lone Star Circus School trains locals to fly and twirl in order to pursue a career in circus.",
+		"link": "http://www.smudailycampus.com/ae/locals-defy-gravity-in-circus-school",
+		"pub-link": "http://www.smudailycampus.com",
+		"pup-title": "SMU Campus Weekly",
+		"category": [1, 2, 3]
+
+	},
+	{
+		"date": "2016-03-29",
+		"headline": "Easter bunny shares inner clown",
+		"teaser": "The Easter bunny shares his alter ego behind the scenes at a neighborhood gathering.",
+		"link": "http://www.smudailycampus.com/news/easter-bunny-shares-inner-clown",
+		"pub-link": "http://www.smudailycampus.com",
+		"pup-title": "SMU Campus Weekly",
+		"category": [1, 3]
+
+	},
+	{
+		"date": "2016-03-29",
+		"headline": "xxxx",
+		"teaser": "I love u!",
+		"link": "http://www.smudailycampus.com/news/easter-bunny-shares-inner-clown",
+		"pub-link": "http://www.smudailycampus.com",
+		"pup-title": "SMU Campus Weekly",
+		"category": [1]
+
+	}
+	]
+}
