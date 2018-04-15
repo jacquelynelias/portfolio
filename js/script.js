@@ -1,4 +1,3 @@
-	console.log("hi");
 var filtered = {
 	"all": 1,
 	"writing": 1,
@@ -60,8 +59,7 @@ $(document).ready(function() {
 function filter(type, el) {
 	$('.filters.active').each(function(i, obj) {
 		console.log(obj)
-		//obj.removeClass('active');
-		console.log(obj)
+		$(this).removeClass('active');
 	});
 	$(el).addClass('active')
 	if(type == 1) {
@@ -145,13 +143,3 @@ function myFunction() {
         x.className = "mynav";
     }
 };
-
-$('#work-type').on('click', function(e) {
-	console.log('bruh i click');
-	if($(this).attr("class").includes('active')) {
-		console.log("not active");
-	}
-	$('#work-type').each(function() {
-		$(this).addClass('active')
-	})
-});

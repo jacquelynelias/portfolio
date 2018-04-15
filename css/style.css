@@ -7,7 +7,18 @@ a {
 	margin:0px auto;
 }
 
+.col {
+  padding: 0px;
+}
+
 body {margin:0;}
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
 
 /* Styles for navigation bar */
 .mynav {
@@ -43,6 +54,7 @@ body {margin:0;}
 .mynav .icon {
   display: none;
 }
+
 
 .icon-box {
 	outline-width: 2px;
@@ -113,18 +125,21 @@ body {margin:0;}
 #about-me {
 	padding-top: 80px;
 	background-color: #E15554;
-	color:#FFFFFF;
+  color:#FFFFFF;
+  height: 100vh;
 
 }
 
 #resume {
 	background-color: #7CBED0;
-	color: #FFFFFF;
+  color: #FFFFFF;
+  height: 100vh;
 }
 
 #work {
 	background-color: #3BB273;
-	color: #FFFFFF;
+  color: #FFFFFF;
+  height: 100vh;
 
 }
 
