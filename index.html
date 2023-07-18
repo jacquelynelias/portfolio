@@ -1,102 +1,454 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
-	<title>Jacquelyn Elias</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/normalize.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-	<script src="js/script.js"></script>
-	<script src="js/resume.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</head>
-<body>
-	<header>
-			<div class="mynav" id="nav-bar">
-			  <a href="#about-me" class="active">Jacquelyn Elias</a>
-			  <a href="#about-me">Meet Me</a>
-			  <a href="#resume">Resume</a>
-			  <a href="#work">Work</a>
-			  <a href="#contact">Contact</a>
-			  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><div class="icon-box">&#9776;</div></a>
-			</div>
-		</header>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col">
-				<div class="slide" id="about-me">
-					<div class="col centered" id="about-content">
-						Why hello there.<br />
-						my name is Jacquelyn Elias <br />
-						and I am a digital storyteller
-					</div>
-					<div class="col">
-						<img src="" />
-					</div>
+    
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="cvCard - Responsive HTML5 vCard Template">
+        <meta name="keywords" content="vcard, html5, portfolio">
+        <meta name="author" content="Pixelwars">
 
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<div class="slide" id="resume">
-					<div class="row">
-						<div class="col">
-							<h1>Resume</h1>
-						</div>
-						<div class="w-100"></div>
-						<div class="col">
-							<div id="resume-content">
+        <title>cvCard</title>
+
+        <!-- FAV and TOUCH ICONS -->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+		
+		<script src="js/modernizr.custom.js"></script>
+         
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+            
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+        <link rel="stylesheet" type="text/css" href="js/google-code-prettify/prettify.css">
+        <link rel="stylesheet" type="text/css" href="css/uniform.default.css">
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+        <link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+    <!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]--> 
+
+	</head>
+    
+    
+    
+	<body>
+    	
+        
+        
+        
+        <!-- CONTAINER -->
+	<div class="container" id="container">
+			
+            
+            
+            <!-- HEADER -->
+            <header class="header">
+            
+                <img src="img/logo.png" alt="Logo of initials">
+				<h1>Jacquelyn Elias</h1>
+                <p>Computational Journalist</p>
+				
+                <!-- NAV MENU -->
+                <ul class="vs-nav">
+					<li><a href="#/about">about me</a></li>
+                    <li><a href="#/portfolio">portfolio</a></li>
+                    <li><a href="#/resume">resume</a></li>
+                    
+                </ul>
+                <!-- NAV MENU -->
+                
+                <!-- SEARCH --> 
+                <div class="header-search">
+                    <form role="search" method="get" id="search-form" action="#">
+                      <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
+                      <input type="submit" id="search-submit" title="Search" value="→">
+                    </form>
+                </div>
+                <!-- SEARCH -->
+                
+			</header>
+            <!-- HEADER -->
+            
+            
+            
+            
+            
+            <!-- WRAPPER -->
+			<div class="wrapper"> <!-- PAGE : ABOUT -->
+				<section id="about" class="page">
+					<div class="content">
+                    
+                    
+                       
+                    
+                    	
+                        <!-- row -->
+                        <div class="row">
+                        	
+                            <!-- column 8/12 -->
+							<div class="col-md-4">
+								<img class="headshot" src="img/headshot-square.jpeg" alt="Headshot">
+
 							</div>
-						</div>
-						<div class="col">
-							Hello there! How are you doing. 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<div class="slide" id="work">
-					<div class="col" id="work-content">
-						<h1>Work</h1>
-						<div class="btn-group">
-							<button type="button" class="btn btn-outline-info active filters" id="work-type" onclick="filter('0', this)">All</button>  
-							<button type="button" class="btn btn-outline-info filters" id="work-type" onclick="filter('1', this)">Writing</button>
-							<button type="button" class="btn btn-outline-info filters" id="work-type" onclick="filter('2', this)">Code</button>
-							<button type="button" class="btn btn-outline-info filters" id="work-type" onclick="filter('3', this)">Graphics</button>
-							<button type="button" class="btn btn-outline-info filters" id="work-type" onclick="filter('4', this)">Social Media</button>
-						</div>
-						<div id="work-cards"></div>
-						<a href="#" ><div class="card">
-							<img src="" alt="image" style="width:100%">
-							<div class="card-content">
-								<h2>Name</h2>
-								<p>Title</p>
+                        	<div class="col-md-8">
+                            	
+                                <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT ME</span></h2>
+                                
+                                <!-- intro -->
+                                <div class="intro">
+                        	
+                                    <h2>
+                                        
+                                        Why hello there! I am
+                                    
+                                        <span class="rotate-words">
+                                            <span>a reporter.</span>
+                                            <span>a coder.</span>
+                                            <span>a designer.</span>
+                                            <span>a learner.</span>
+                                        </span>
+                                        <div class="description">
+                                        	<br> 
+                                        	My name is Jacquelyn, and I am the news applications developer at The Chronicle of Higher Education, where I create data visualizations and interactives. I also collaborate with my coworkers to identify ways to incorporate data into our stories.
+											<br><br>
+											The stress and the joy of my job is finding creative and clear ways to present our reporting.
+											<br><br>
+											Pardon the mess as I finish building this site.
+										</div>
+                                    </h2>
+                                      
+                                </div>
+                                <!-- intro -->
+                                
+                                
+                            </div>
+                            <!-- column 8/12 -->
+                        	
+                            
+                            
+                            
+                        </div>
+                        <!-- row -->
+                        
+                        
+                        
+                        	      
+                                
+                       
+                        
+                        
+                        
+                        
+                        
+						
+                        
+                        
+                        
+                        
+                        
+                        <h2 class="section-title"><span>LET'S CHAT</span></h2>
+                                    
+                        <!-- CONTACT -->
+                        
+						<div class="row">
+							<div class="col-md-12">
+                          
+                          
+								
+								Have some cool, interesting projects? Let's get in touch.
+								<!-- SOCIAL -->
+								<ul class="social">
+								  <li><a class="twitter" href="https://twitter.com/JacquelynRElias"></a></li>
+								  <li><a class="linkedin" href="https://www.linkedin.com/in/jacquelynrelias/"></a></li>
+								  <li><a class="github" href="https://github.com/jacquelynrelias"></a></li>
+								  <li><a class="icon-gmail" href="mailto:jacquelynrelias@gmail.com"></a></li>
+
+								  <!--<li><a class="soundcloud" href="#"></a></li>
+								  <li><a class="fivehundredpx" href="#"></a></li>
+								  <li><a class="slideshare" href="#"></a></li>-->
+								</ul>
+								<!-- SOCIAL -->
+								
+								
+								
 							</div>
-						</div></a>
+                            
+                        </div>
+                        <!-- CONTACT -->
+                                
+                        
 					</div>
-				</div>
-			</div>
+				</section>
+                <!-- PAGE : ABOUT -->
+                
+                
+                
+                
+                <!-- PAGE : PORTFOLIO -->
+				<section id="portfolio" class="portfolio page">
+					<div class="content">
+                    
+                                     
+                        <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2>
+                        
+                        <!--FILTERS-->
+                        <ul id="filters" class="filters">
+                          <li class="current"><a href="#" data-filter="*">ALL</a></li>
+                          <li><a href="#" data-filter=".featured">FEATURED</a></li>
+                          <li><a href="#" data-filter=".dataviz">DATA VIZ</a></li>
+                          <li><a href="#" data-filter=".datareporting">DATA REPORTING</a></li>
+						  <li><a href="#" data-filter=".graphics">GRAPHICS</a></li>
+                        </ul>
+                        <!--FILTERS-->
+                    
+                    
+                    
+                        <!-- PORTFOLIO -->
+                        <div class="portfolio-items media-grid" data-layout="masonry">
+                          
+                          
+                          
+                          
+                          
+                        </div>
+                        <!-- PORTFOLIO -->
+                        
+                        
+                        
+                        
+                        
+                    
+                    </div>
+                    <!-- CONTENT -->
+					
+				</section>
+                <!-- PAGE : PORTFOLIO -->
+                
+                
+                
+                <!-- PAGE : RESUME -->
+				<section id="resume" class="page">
+					<div class="content">
+						<!-- CONTENT -->
+                                       
+                                        
+                     	<!-- row -->
+                        <div class="row">
+                        
+                        	
+                            <!-- col 12/12 -->
+                            <div class="col-md-8">
+                                          
+                                <!-- timeline -->
+                                <div class="timeline">
+                                
+                                    <h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
+                                    
+                                    <div class="event current">
+                                        <span class="date">Nov. 2018</span>
+										<h4>The Chronicle of Higher Education: Washington, D.C.</h4>
+                                        <h5>News Applications Developer</h5>
+                                        
+                                        <p>
+											<ul>
+												<li>Coordinate with editors, designers and reporters to create static and interactive news graphics, databases, applications and data stories under varying deadlines</li>
+												<li>Introduce new data sources to reporters and perform data acquisition, evaluation, cleaning and analysis with tools like Pandas, Jupyter notebooks, R, Python, MySQL, PostGIS and Excel and cross-train members of the data team on tools and processes</li>
+												<li>Identify and pitch graphics and interactive opportunities to reporters and editors to increase collaboration between our data team and the newsroom</li>
+												<li>Introduce tools like Flourish and brainstorm solutions to push the limits of our CMS to create a visual and data-focused stories</li>
+												<li>Built and maintained a web-based news application that tracked and analyzed college’s Covid-19 reopening plans for 5 months</li>
+												<li>Pitched, led a team of reporters, acquired records, wrote the narrative and developed a web interactive using D3.js, P5.js and</li>
+												other libraries on student debt</li>
+												<li>Serve on the intern selection committee and a team of editorial staff members to train the newsroom on the new CMS system</li>
+											</ul>
+										</p>
+                                    </div>
+                                    
+                                    
+                                    <div class="event">
+                                        <span class="date">June 2018</span>
+										<h4>The Atlanta Journal-Constitution: Atlanta, GA</h4>
+                                        <h5>Data Intern</h5>
+                                        
+                                        <p>
+											<ul>
+												<li>Collaborated with reporters on 5 articles to find and analyze datasets to enhance narrative with data and visualizations</li>
+												<li>Developed a web app in two days to show precinct-level results of Georgia’s 2018 gubernatorial election and ran live updates</li>
+												<li>Wrote Python parsers to extract data from records such as amusement park inspections, pardon documents and 990 forms</li>
+											</ul>
+										</p>
+                                    </div>
+									<div class="event">
+                                        <span class="date">Jan. 2017</span>
+                                        <h4>The Dallas Morning News: Dallas, TX</h4>
+										<h5>Data and Applications Intern</h5>
+                                        <p>
+											January 2017 – May 2017
+											<ul>
+												<li>Researched, cleaned and visualized data to use in articles with <i>The Dallas Morning News’</i> chart creator application</li>
+												<li>Matched census data with gun homicides in the Dallas area to develop a visualization and article</li>
+											</ul>
+										</p>
+                                    </div>
+                                    
+                                    <div class="event">
+                                        <span class="date">Aug. 2015</span>
+                                        <h4>SMU Campus Weekly Newspaper: Dallas, TX</h4>
+                                        <p>
+											August 2015 – May 2018
+											<h5>Online Editor</h5>
+											<ul>
+												<li>Implemented a plan to redesign smudailycampus.com to meet modern web design standards and to focus on reader experience</li>
+												<li>Developed a new workflow to integrate with WordPress and Slack for a newsroom with 16 staff and over 40 contributors</li>
+											</ul>
+											<h5>Layout/Graphics Editor</h5>
+											<ul>
+												<li>Collaborated with each editor and designed weekly cover art and graphics in Adobe Photoshop and InDesign to attract readers</li>
+											</ul>
+										</p>
+                                    </div>
+									
+                               
+                               </div>
+                               <!-- timeline -->
+                               
+                               
+                               <!-- timeline -->
+                               <div class="timeline">
+                                
+                                    <h2><i class="icon-college"></i>EDUCATION</h2>
+                                    
+                                    <div class="event">
+                                        <span class="date">May 2018</span>
+                                        <h4>Bachelor of Arts in Journalism, Creative Computation and Computer Science</h4>
+                                        <h5>Southern Methodist University</h5>
+                                        <p>Cumulative GPA: 3.816/4.0 - Cum Laude</p>
+										<p>Honors: Departmental Distinction, Honors in the Liberal Arts, Outstanding Achievement in Digital Journalism, ONA Student Newsroom, Founder’s Scholar for Headliner’s Foundation, TIPA Second Place for Information Graphic and RA of the Year.</p>
+                                    </div>
+                                    
+                               
+                               </div>
+                               <!-- timeline -->
+                               
+                              
+                            </div> 
+                              <!-- col 12/12 -->
+                               
+                               
+                               
+                               <!-- col 6/12 -->
+                               <div class="col-md-4">
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="download-button">
+                                        <a href="assets/EliasJ_Resume.pdf" target="_blank" class="button primary">DOWNLOAD AS PDF</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+                                
+                                    <h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span></h2>
+                                
+                                    <!-- DEV SKILLS -->
+                                    <div class="skillset">
+                                    
+                                        <p>
+											Javascript, MySQL, R, Firebase, Leaflet, Mapbox, Jenkins, Gulp, PostGIS, PostgreSQL, Excel, SQLite, jQuery, D3.js, Vue.js, React.js, Angular, PHP, C++, ArcGIS Pro, Java, Python, HTML/CSS, Processing, Assembler, GitHub
+										</p>
+                                    
+                                    </div>
+                                    <!-- DEV SKILLS -->
+                                    
+                                    
+                                    
+                                    <h2 class="section-title"><span><i class="icon-brush"></i>DESIGN SKILLS</span></h2>
+                                    
+                                    <!-- DESIGN SKILLS -->
+                                    <div class="skillset">
+                                        
+										QGIS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe Premiere Pro, Datawrapper, Flourish, Maya, Blender
+                                    
+                                    </div>
+                                    <!-- DESIGN SKILLS -->
+
+                                    
+                                    
+                                    
+                                    
+                                    
+                                
+                               </div>
+                               <!-- col 6/12 -->
+                        
+                        
+                        </div>                       
+                        <!-- row -->                   
+                                            
+                                           
+                                            
+                                		
+                    </div>
+                    <!-- CONTENT -->
+					
+				</section>
+                <!-- PAGE : RESUME -->
+                
+                
+                
+           	</div>
+            <!-- WRAPPER -->
+            
+            
 		</div>
-		<div class="row">
-			<div class="col">
-				<div class="slide" id="contact">
-					<div class="col">
-						<h1>Contact Me</h1>
-						TThrough my work on these various student publications, I have practiced pitching, writing, gathering sources and publishing stories under tight deadlines. I have also learned how to publish stories and graphics on CMS applications such as Wordpress. <br />
-						Through my work on these various student publications, I have practiced pitching, writing, gathering sources and publishing stories under tight deadlines. I have also learned how to publish stories and graphics on CMS applications such as Wordpress. <br />
-						Through my work on these various student publications, I have practiced pitching, writing, gathering sources and publishing stories under tight deadlines. I have also learned how to publish stories and graphics on CMS applications such as Wordpress. <br />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer>
-		Copyright 2017 Jacquelyn Elias
-	</footer>
-</body>
+        <!-- CONTAINER -->
+        
+        
+        
+    <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+    <div class="p-overlay"></div>
+    <div class="p-overlay"></div>
+        
+        
+        
+    <!-- SCRIPTS -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/triple.layout.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/nprogress/nprogress.js"></script>
+        <script src="js/fastclick.js"></script>
+		<script src="js/jquery.imagesloaded.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.uniform.min.js"></script>
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/jquery.tooltipster.min.js"></script>
+        <script src="js/google-code-prettify/prettify.js"></script>
+        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="js/send-mail.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script src="assets/work.js"></script>
+		<script src="js/main.js"></script>
+		
+
+        
+	</body>
 </html>
