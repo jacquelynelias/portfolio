@@ -1,1 +1,0 @@
-$('#resume-content').append("hello!");
