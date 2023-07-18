@@ -18,6 +18,38 @@ var $container, $blog_container;
 	
 	/* DOCUMENT LOAD */
 	$(function() {
+
+		$.each(samples.pieces, function(i, item) {
+			console.log(item)
+			var c = "";
+			for (var i = 0; i < item["category"].length; i++) {
+				if(item["category"][i] == 1) {
+					c = c.concat(" featured");
+				} else if(item["category"][i] == 2) {
+					c = c.concat(" dataviz");
+				} else if(item["category"][i] == 3) {
+					c = c.concat(" datareporting");
+				} else if(item["category"][i] == 4) {
+					c  = c.concat(" graphics");
+				}
+			}
+			$("#portfolio .portfolio-items").append(`
+			<div class="media-cell `+ c+` hentry">
+				<div class="media-box">
+				<img src=`+ item['promo']+` alt="portfolio-post">
+				<div class="mask"></div>
+				`+ item['cta']+`
+			</div>
+			
+			<div class="media-cell-desc">
+				<h3>`+ item['title']+`</h3>
+				<p class="category">`+ c +`</p>
+			</div>
+			
+		  </div>`)
+			
+
+		})
 		
 		
 		// ------------------------------
@@ -60,36 +92,7 @@ var $container, $blog_container;
 		// ------------------------------
 		
 		
-		// ------------------------------
-		/* LATEST TWEETS WIDGET */
-		var latest_tweets = $('#latest-tweets');
-		if(latest_tweets.length) {
-			var config = {
-			  "profile": {"screenName": latest_tweets.data("twitter-name")},
-			  "domId": '',
-			  "maxTweets": latest_tweets.data("tweet-count"),
-			  "enableLinks": true,
-			  "showUser": false,
-			  "showTime": true,
-			  "dateFunction": '',
-			  "showRetweet": latest_tweets.data("include-retweets"),
-			  "customCallback": handleTweets,
-			  "showInteraction": false
-			};
-			function handleTweets(tweets){
-			  var x = tweets.length;
-			  var n = 0;
-			  var html = '<ul>';
-			  while(n < x) {
-				html += '<li>' + tweets[n] + '</li>';
-				n++;
-			  }
-			  html += '</ul>';
-			  latest_tweets.html(html);
-			}
-			twitterFetcher.fetch(config);
-		}	 
-		// ------------------------------
+		
 		
 		
 		
@@ -107,14 +110,17 @@ var $container, $blog_container;
 		// ------------------------------
 		// ONE PAGE LAYOUT FUNCTIONS
 		if($('html').hasClass('one-page-layout')) {
-			
 			// ------------------------------
 			// PORTFOLIO DETAILS
 			// if url contains a portfolio detail url
 			portfolioKeyword = $('section.portfolio').attr('id');
-			initialize();
-			var detailUrl = giveDetailUrl();
-			// ------------------------------
+		
+				initialize();
+				var detailUrl = giveDetailUrl();
+			
+			
+			
+			
 			
 			
 			// ------------------------------
