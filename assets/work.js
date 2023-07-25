@@ -26,8 +26,8 @@ var samples = {
 	{
 		"date": "2022-11-16",
 		"title": "Test-Optional Policies Now Dominate Higher Ed",
-		"cta":'<a href="Test-Optional Policies Now Dominate Higher Ed" target="_blank"></a>',
-		"promo":"./img/2021-books/promo.png",
+		"cta":'<a href="https://www.chronicle.com/article/test-optional-policies-now-dominate-higher-ed" target="_blank"></a>',
+		"promo":"./img/2022-test/promo.png",
 		"category": [2,3]
 	},
 	{
