@@ -18,22 +18,11 @@
 .media-box .mask:before {display:none;}
 
 #footer {
-    background-color: rgb(241, 242, 235);
+    background-color: #F4F6F7;
     margin-bottom: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align:center;
-}
-
-#footer h2 :after{
-    background: rgba(255, 104, 107,0.7);
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 5px;
-    left: 0;
-    z-index: -1;
-    content:'';
 }
 
 #footer .social li a  {
