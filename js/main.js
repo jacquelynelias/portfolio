@@ -22,17 +22,24 @@ var $container, $blog_container;
 		$.each(samples.pieces, function(i, item) {
 			console.log(item)
 			var c = "";
+			var s = "";
 			for (var i = 0; i < item["category"].length; i++) {
 				if(item["category"][i] == 1) {
 					c = c.concat(" featured");
+					s = s.concat(" <span>Featured</span>");
 				} else if(item["category"][i] == 2) {
 					c = c.concat(" dataviz");
+					s = s.concat(" <span>Data viz</span>");
 				} else if(item["category"][i] == 3) {
 					c = c.concat(" datareporting");
+					s = s.concat(" <span>Reporting</span>");
 				} else if(item["category"][i] == 4) {
 					c  = c.concat(" graphics");
+					s = s.concat(" <span>Graphics</span>");
 				}
 			}
+			var d = new Date(item['date']+" 00:00:00");
+			console.log(d)
 			$("#portfolio .portfolio-items").append(`
 			<div class="media-cell `+ c+` hentry">
 				<div class="media-box">
@@ -43,7 +50,8 @@ var $container, $blog_container;
 			
 			<div class="media-cell-desc">
 				<h3>`+ item['title']+`</h3>
-				<p class="category">`+ c +`</p>
+				<p class="pubdate">`+ d.getMonth() +`/`+ d.getDate() +`/`+ d.getFullYear() +`</p>
+				<div class="category">`+ s +`</div>
 			</div>
 			
 		  </div>`)

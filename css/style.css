@@ -1,10 +1,38 @@
 /* About me */
 .headshot {
     border-radius:200px;
+    max-width:250px;
 }
 
 .intro .description {font-size:18px;text-align:left;}
 
+.portfolio-items .category span {
+    background: rgb(136,189,207);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.media-box .mask:before {display:none;}
+
+#footer {
+    background-color: #F4F6F7;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+#footer .social li a  {
+    border: 0px;
+    border-radius:25px;
+}
+
+#footer .social li a:hover{
+    background:rgb(136,189,207);
+}
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {

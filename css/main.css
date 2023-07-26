@@ -54,7 +54,7 @@ a:focus {
 	text-decoration: none; outline: none;
 	}
 a:hover {
- 	color: #5BCF80
+ 	color: rgb(136,189,207)
 	}
 iframe {
  	border: none
@@ -769,7 +769,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  display: none;
 	}
 	.service i { 
-		display: inline-block; width: 86px; line-height: 86px; font-size: 32px; color: #fff; border-radius: 50%; text-align: center; background: #5BCF80;
+		display: inline-block; width: 86px; line-height: 86px; font-size: 32px; color: #fff; border-radius: 50%; text-align: center; background: rgb(136,189,207);
 		}
 	.service i:before { 
 		margin: 0 .2em; display: inline-block; 
@@ -858,7 +858,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	border-right-color: #EDF1F3; border-width: 15px; margin-top: -15px;
 	}
 	.event .date {
-		position: absolute; top: 45%; margin-top: -24px; left: -106px; width: 68px; line-height: 58px; text-align: center; background: #5BCF80; display: block; z-index: 120; color: #fff; border-radius: 50%; border: 5px solid #FFF; font-family: Oswald; font-weight: 400; font-size: 11px; letter-spacing: 1px;
+		position: absolute; top: 45%; margin-top: -24px; left: -106px; width: 68px; line-height: 58px; text-align: center; background: rgb(136,189,207); display: block; z-index: 120; color: #fff; border-radius: 50%; border: 5px solid #FFF; font-family: Oswald; font-weight: 400; font-size: 11px; letter-spacing: 1px;
 		}
 	.event.current .date {
 		border-color: #345; outline: 5px solid #FFF; background-color: #345;
@@ -893,7 +893,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		position: relative; width: 100%; height: 36px;
 		}
 		.skill-unit .bar .progress {
-	 		position: absolute; top: 0; left: 0; width: 0; height: 100%; border-radius: 4px; background : #5BCF80; /*box-shadow: 4px 4px 0 #e7e7e7;*/
+	 		position: absolute; top: 0; left: 0; width: 0; height: 100%; border-radius: 4px; background : rgb(136,189,207); /*box-shadow: 4px 4px 0 #e7e7e7;*/
 			}
 
 /* TESTIMONIAL */
@@ -949,7 +949,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	margin-left: 130px;
 	}
 	.letter-info p i {
- 		display: inline-block; padding: 7px 9px; font-size: 15px; color: #fff; background: #5BCF80; margin: 0 14px 10px 0; border-radius: 50%;
+ 		display: inline-block; padding: 7px 9px; font-size: 15px; color: #fff; background: rgb(136,189,207); margin: 0 14px 10px 0; border-radius: 50%;
 		}
 .letter-info p {
  	margin: 0; font-size: 14px;
@@ -1177,14 +1177,14 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  		display: inline-block; margin: .6em .4em;
 		}
 		.filters li a {
- 			color: #b8c7ca; font-size: 11px; letter-spacing: .1em; padding: 7px 12px; border: 1px solid #DDE4E6; border-radius: 4px;
+ 			color: #b8c7ca; font-size: 11px; letter-spacing: .1em; padding: 7px 12px; border: 1px solid #DDE4E6; border-radius: 25px;
 			}
 		.filters li a:hover {
- 			color: #345; border-color: #345;
+ 			color: rgb(136,189,207); border-color: rgb(136,189,207);
 			}
 	.filters .current a,
 	.filters .current a:hover {
- 		color: #fff; background: #345; border-color: transparent;
+ 		color: #fff; background: rgb(136,189,207); border-color: transparent;
 		}
 		
 /* MEDIA GRID */
@@ -1221,7 +1221,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		font-size: 13px; letter-spacing: .04em; margin: 0; color: #a7b6b9;
 		}
 	.media-cell-desc .date {
-		float: left; margin-right: 16px; padding: 6px 7px; text-align: center; font-size: 14px; line-height: 1; color: #fff; border-radius: 2px; margin-top: -66px; position: relative; background: #FFF; margin-left: 0%; background: #5BCF80;;
+		float: left; margin-right: 16px; padding: 6px 7px; text-align: center; font-size: 14px; line-height: 1; color: #fff; border-radius: 2px; margin-top: -66px; position: relative; background: #FFF; margin-left: 0%; background: rgb(136,189,207);;
 		}
 		.media-cell-desc .date .day {
 			display: block; font-size: 26px; letter-spacing: -1px; font-weight: 800; color: #fff;
@@ -1743,7 +1743,7 @@ a.button.colored {
  	opacity: 1
 	}
 #fancybox-close {
- 	padding: 26px; line-height: 80%; font-size: 16px; opacity: 1; color: #fff; background: #5BCF80; border-radius: 50%;
+ 	padding: 26px; line-height: 80%; font-size: 16px; opacity: 1; color: #fff; background: rgb(136,189,207); border-radius: 50%;
 	}
 #fancybox-close:hover {
  	background: #D4643E
@@ -1834,7 +1834,7 @@ a.button.colored {
  	content: "\f105"
 	}
 .portfolio-nav a.button.back {
- 	display: none; margin-left: 34px; border-width: 0; line-height: 70px; width: 70px; font-size: 16px; color: #fff; background: #5BCF80; border-radius: 50%;
+ 	display: none; margin-left: 34px; border-width: 0; line-height: 70px; width: 70px; font-size: 16px; color: #fff; background: rgb(136,189,207); border-radius: 50%;
 	}
 .portfolio-nav a.button.back:before {
  	display: inline; content: "\f00d"; font-size: 1em;
@@ -2769,7 +2769,7 @@ a {
  	color: #096;
 	}
 a:hover {
- 	color: #5BCF80;
+ 	color: rgb(136,189,207);
 	}
 
 /* Text Selection */
@@ -2788,7 +2788,7 @@ a:hover {
 	background: #74BADE; 
 	}
 .color3 i { 
-	background: #5BCF80; 
+	background: rgb(136,189,207); 
 	}
 .color4 i { 
 	background: #E25E5B; 
@@ -2824,7 +2824,7 @@ a.more-link:hover,
 	border-color: #21B572
 	}
 	
-/* SECONDARY COLOR : #5BCF80 - lighter than primary color
+/* SECONDARY COLOR : rgb(136,189,207) - lighter than primary color
    ================================================== */	
 .skill-unit .bar .progress,
 .event .date,
@@ -2833,10 +2833,10 @@ a.more-link:hover,
 #nprogress .bar,
 #fancybox-close,
 .portfolio-nav a.button.back {
-	background: #5BCF80;
+	background: rgb(136,189,207);
 	}
 #nprogress .spinner-icon {
-  border-top-color: #5BCF80; border-left-color: #5BCF80;
+  border-top-color: rgb(136,189,207); border-left-color: rgb(136,189,207);
 	}
 
 /* FIX FOR CHROME FULSCREEN VIDEO ISSUE */
