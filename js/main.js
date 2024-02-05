@@ -20,7 +20,7 @@ var $container, $blog_container;
 	$(function() {
 
 		$.each(samples.pieces, function(i, item) {
-			console.log(item)
+
 			var c = "";
 			var s = "";
 			for (var i = 0; i < item["category"].length; i++) {
@@ -39,7 +39,7 @@ var $container, $blog_container;
 				}
 			}
 			var d = new Date(item['date']+" 00:00:00");
-			console.log(d)
+
 			$("#portfolio .portfolio-items").append(`
 			<div class="media-cell `+ c+` hentry">
 				<div class="media-box">
@@ -50,7 +50,7 @@ var $container, $blog_container;
 			
 			<div class="media-cell-desc">
 				<h3>`+ item['title']+`</h3>
-				<p class="pubdate">`+ d.getMonth() +`/`+ d.getDate() +`/`+ d.getFullYear() +`</p>
+				<p class="pubdate">`+ (d.getMonth() + 1) +`/`+ d.getDate() +`/`+ d.getFullYear() +`</p>
 				<div class="category">`+ s +`</div>
 			</div>
 			

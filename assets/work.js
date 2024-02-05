@@ -54,7 +54,7 @@ var samples = {
 		"category": [2,3]
 	},
 	{
-		"date": "2020-01-28",
+		"date": "2021-01-28",
 		"title": "Tracking Colleges' Spring-Reopening Plans",
 		"cta":'<a href="https://www.chronicle.com/article/tracking-college-spring-reopening-plans" target="_blank"></a>',
 		"promo":"./img/2021-reopening/promo.png",
