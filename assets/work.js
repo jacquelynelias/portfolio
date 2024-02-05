@@ -1,11 +1,25 @@
 var samples = { 
 	"pieces": [
 	{
+		"date": "2023-11-06",
+		"title": "Where the Public Sees Value in Higher Ed",
+		"cta":'<a href="https://www.chronicle.com/article/where-the-public-sees-value-in-higher-ed" target="_blank"></a>',
+		"promo":"./img/2023-perception/promo.png",
+		"category": [1,2]
+	},
+	{
+		"date": "2023-08-21",
+		"title": "These Are the Factors That End College Presidencies",
+		"cta":'<a href="https://www.chronicle.com/article/these-are-the-factors-that-end-college-presidencies" target="_blank"></a>',
+		"promo":"./img/2023-presidents/promo.png",
+		"category": [3]
+	},
+	{
 			"date": "2023-06-30",
 			"title": "Supreme Court’s Admissions Ruling Mainly Affects...",
 			"cta":'<a href="https://www.chronicle.com/article/the-supreme-courts-admissions-ruling-mainly-affects-selective-colleges-theyre-a-tiny-slice-of-higher-ed" target="_blank"></a>',
 			"promo":"./img/2023-selectivity/promo.png",
-			"category": [2,3]
+			"category": [1,2,3]
 	
 	},	
 	{
@@ -37,7 +51,14 @@ var samples = {
 		"title": "These Are the Books That Colleges Think Every Freshman...",
 		"cta":'<a href="https://www.chronicle.com/article/these-are-the-books-that-colleges-think-every-freshman-should-read" target="_blank"></a>',
 		"promo":"./img/2021-books/promo.png",
-		"category": [1,2,3]
+		"category": [2,3]
+	},
+	{
+		"date": "2021-01-28",
+		"title": "Tracking Colleges' Spring-Reopening Plans",
+		"cta":'<a href="https://www.chronicle.com/article/tracking-college-spring-reopening-plans" target="_blank"></a>',
+		"promo":"./img/2021-reopening/promo.png",
+		"category": [2]
 	},
 	{
 		"date": "2020-05-22",
@@ -63,13 +84,20 @@ var samples = {
 
 	},
 	{
+		"date": "2019-06-12",
+		"title": "In Plain Sight",
+		"cta":'<a href=" https://www.chronicle.com/interactives/plain-sight" target="_blank"></a>',
+		"promo":"./img/2019-plain-sight/promo.png",
+		"category": [1,2,4]
+	},
+	{
 		"date": "2019-04-04",
 		"title": "How America’s College-Closure Crisis Leaves Families...",
 		"cta":'<a href="https://www.chronicle.com/article/how-americas-college-closure-crisis-leaves-families-devastated/" target="_blank"></a>',
 		"promo":"./img/2019-closures/promo.png",
 		"category": [4]
 
-	},
+	}
 	
 	]
 }
